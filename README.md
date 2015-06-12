@@ -11,11 +11,11 @@ Viewer is the image of the front side server of a information service project ca
 ## Create and run viewer
 
 ```bash
-    docker run -d -e "DATABASE_USER=xxxx" -e "DATABASE_PASSWD=xxxx" -P companyservice/viewer
+    docker run -d -e "DATABASE_USER=xxxx" -e "DATABASE_PASSWD=xxxx" -e "COOKIE_SECRET=xxx" -P companyservice/viewer
 ```
 
 > NOTICE     
-> The environment variable "DATABASE\_USER" and "DATABSE\_PASSWD" is required
+> The environment variable **DATABASE_USER**, **DATABASE_PASSWD** and **COOKIE_SECRET** is required
 
 # Supported Docker versions
 
